@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DoviakosvkisLOTTOgenerator</string>
+    <string name="headerText">DONXRAY`s lotto generator</string>
+    <string name="BlueFire">BlueFire</string>
+    <string name="enterHint">Enter Number</string>
+    <string name="buttonText">Generate</string>
+    <string name="result">Result</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+
+    <TextView
+        android:id="@+id/header_title"
+        style="@style/headerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp" />
+
+    <ImageView
+
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:contentDescription="@string/BlueFire"/>
+
+    <EditText
+        android:id="@+id/IntputText"
+        android:layout_width="170dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:maxLength="2"
+        android:layout_margin="20dp"
+        android:hint="@string/enterHint"
+        android:autofillHints="@string/enterHint"/>
+
+    <Button
+        android:id="@+id/generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        style="@style/buttonText"/>
+
+    <TextView
+        android:id="@+id/result"
+        style="@style/output"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="#FFA500"
+        android:hint="@string/result"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="55sp"
+        style="@style/VardasPavarde"/>
+
+</LinearLayout>
